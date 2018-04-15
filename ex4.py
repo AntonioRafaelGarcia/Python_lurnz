@@ -1,13 +1,13 @@
 #establish variables and initial values
-cars= 100
+cars = 30
 space_in_a_car = 4
-drivers = 30
+drivers = 100
 passengers = 90
 
 #establish arithmetically-derived variables
 cars_not_driven = cars - drivers
 cars_driven = drivers
-carpool_capacity = cars_driven * space_in_a_car
+carpool_capacity = cars_driven * space_in_a_car  # maybe rethink this math?
 average_passengers_per_car = passengers / cars_driven
 
 #print string statement explaining pertinent variables in context
